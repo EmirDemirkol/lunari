@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Lunari</title>
+    <link rel="icon" type="image/png" href="images/Lunari-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Lunari</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a class="active" href="signup.html">Sign Up</a>
+      <a class="cart-pill" href="cart.html">Cart</a>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Main Content -->
+
+    <section class="signup-hero">
+        <div class="signup-card">
+            <h1 class="signup-title">Create Account</h1>
+            <p class="signup-subtitle">Join Lunari for exclusive collections and offers.</p>
+
+            <!-- Static signup form for prototype -->
+            <form onsubmit="event.preventDefault(); alert('Signup prototype only.');">
+                <div class="mb-3">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Create a password">
+                </div>
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirm password</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Repeat password">
+                </div>
+                <div class="form-check mb-3">
+    <input class="form-check-input" type="checkbox" id="termsCheck">
+    <label class="form-check-label" for="termsCheck">
+        I agree to the
+        <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">
+            Terms & Privacy Policy
+        </a>
+    </label>
+</div>
+
+                <button type="submit" class="btn-icebox w-100 mb-4">
+    <i class="fas fa-user-plus me-2"></i>Sign Up
+</button>
+
+   <div class="d-flex justify-content-between align-items-center gap-3">
+    <span class="text-dark signup-login-text">
+        Have a Lunari account?
+    </span>
+    <a href="login.html"
+       class="btn btn-outline-dark px-4 py-2 signup-login-btn">
+        Login
+    </a>
+</div>
+
+
+            </form>
+        </div>
+    </section>
+
+
+<div class="modal fade" id="termsModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Lunari Terms & Privacy Policy</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Use of the Lunari website</h6>
+        <p class="mb-3">
+          This website is for demonstration purposes only. Any data you enter
+          should be sample data and not real personal or payment information.
+        </p>
+        <h6>Account information</h6>
+        <p class="mb-3">
+          By creating an account, you confirm that the details you provide are accurate
+          to the best of your knowledge for this demonstration.
+        </p>
+        <h6>Privacy</h6>
+        <p class="mb-0">
+          This website does not store or process real payments. Do not submit sensitive
+          information; any data entered may be cleared at any time.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-icebox" data-bs-dismiss="modal">
+          I Understand
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Site Footer -->
+ <footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h3 class="footer-title">Lunari</h3>
+      <p class="footer-text">
+        Refined pieces designed for everyday wear.
+      </p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram" class="footer-social-link">Instagram</a>
+        <a href="#" aria-label="TikTok" class="footer-social-link">TikTok</a>
+        <a href="#" aria-label="Email" class="footer-social-link">Email</a>
+      </div>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-col">
+      <h4 class="footer-heading">More Pages</h4>
+      <ul class="footer-links">
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h4 class="footer-heading">Support</h4>
+      <ul class="footer-links">
+        <li><a href="shipping.html">Shipping</a></li>
+        <li><a href="returns.html">Returns</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="care_guide.html">Care Guide</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact / newsletter -->
+    <div class="footer-col">
+      <h4 class="footer-heading">Contact</h4>
+      <p class="footer-text">
+        Mon–Fri: 11AM–6PM<br>
+        Sat: 12PM–5PM<br>
+        Sun: Closed
+      </p>
+      <p class="footer-text">
+        <a class="footer-inline-link" href="tel:+353000000000">(+353) 00 000 0000</a><br>
+        <a class="footer-inline-link" href="mailto:hello@lunarijewellery.com">hello@lunarijewellery.com</a>
+      </p>
+
+      <form class="footer-form" action="#" method="post">
+        <input class="footer-input" type="email" name="email" placeholder="Email for drops & offers" required>
+        <button class="footer-btn" type="submit">Join</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p class="footer-copy">© 2025 Lunari Jewellery. All rights reserved.</p>
+    <div class="footer-payments" aria-label="Accepted payments">
+      <span class="pay-pill">Visa</span>
+      <span class="pay-pill">Mastercard</span>
+      <span class="pay-pill">Apple Pay</span>
+      <span class="pay-pill">Google Pay</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
