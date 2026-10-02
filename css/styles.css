@@ -868,7 +868,7 @@ body {
 
 .hero-icebox {
   height: 100vh;
-  background: url('/images/background.png') center/cover no-repeat;
+  background: url('../images/background.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1104,19 +1104,19 @@ body {
 }
 
 .slideshow-bg-cuban {
-  background-image: url("/images/Lunari Timeless Watch.png");
+  background-image: url("../images/Lunari Timeless Watch.png");
 }
 
 .slideshow-bg-tennis {
-  background-image: url("/images/Lunari Mixed Cut Bracelet.png");
+  background-image: url("../images/Lunari Mixed Cut Bracelet.png");
 }
 
 .slideshow-bg-cross {
-  background-image: url("/images/Lunari Moseinate bracelet.png");
+  background-image: url("../images/Lunari Moseinate bracelet.png");
 }
 
 .slideshow-bg-bracelet {
-  background-image: url("/images/Lunari Women's Necklace Gold.png");
+  background-image: url("../images/Lunari Women's Necklace Gold.png");
 }
 
 .home-cta-wrapper {
